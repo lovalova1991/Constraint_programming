@@ -1,3 +1,20 @@
+%Un'azienda che produce automobili ha tre linee di montaggio per inserire i tre possibili optional: cerchi in lega, 
+%aria condizionata e navigatore satellitare. Si ha una sequenza di richieste, memorizzate nel file automobili.pl; 
+%ciascuna richiesta è strutturata come segue:
+%rich(Num,Consegna,CerchiLega,AriaCondizionata,Satellitare).
+%dove
+%Num è un identificatore univoco della richiesta
+%Consegna è l'orario massimo di consegna (in minuti)
+%CerchiLega, AriaCondizionata e Satellitare sono i possibili optional: essi valgono 1 se l'optional è stato richiesto, 0 altrimenti.
+%Si hanno i seguenti vincoli:
+%ciascuna automobile può essere mandata in una delle 3 linee di montaggio degli optional (non può essere contemporaneamente in due linee)
+%ciascuna linea di montaggio può lavorare su un'automobile alla volta
+%l'installazione degli optional ha i seguenti tempi
+%cerchi in lega: 20 minuti
+%aria condizionata: 80 minuti
+%navigatore satellitare: 50 minuti
+%Si scriva un programma CLP che stabilisca l'orario in cui vengono montati gli optional sulle auto rispettando tutti i vincoli e minimizzando il tempo totale.
+
 :-lib(fd).
 :-lib(edge_finder).
 :-[automobili].

@@ -1,3 +1,13 @@
+%I coniugi Brillante hanno cinque figli, che tengono fede al loro nome. 
+%Alle età di 4, 5, 6, 7 e 8 anni, Anna e i suoi fratelli mostrano un buon talento ciascuno in un campo diverso da quello degli altri.
+%Determinare l'età e il talento di ognuno dei figli, sapendo che:
+%Uno di loro suona bene il piano
+%Carla ha 4 anni e non è la Brillante matematica
+%Il mago del computer è di un anno più vecchio di Stefano
+%Il violinista ha 7 anni
+%Giovanna non è quella di 8 anni
+%All'età di 5 anni, Roberto è più giovane del Brillante bravo nel nuoto.
+
 :-lib(fd).
 :-lib(fd_global).
 
