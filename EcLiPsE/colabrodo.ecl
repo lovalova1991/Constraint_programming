@@ -1,3 +1,19 @@
+%L'azienda Colabrodo S.r.l. ha deciso di cambiare le politiche di sicurezza dei suoi server.
+%Sono stati identificati un certo numero di tipologie di attacco che un hacker potrebbe tentare di effettuare; 
+%per difendersi da questi attacchi, sono state identificate anche delle strategie di difesa. 
+%Fortunatamente, alcune strategie di difesa sono in grado di proteggere da più tipologie di attacco.
+%Un file attacchi.pl contiene i dati sui possibili attacchi e le possibili difese.
+%L'elenco delle possibili strategie di difesa è riportato in un fatto 
+%difesa(ListaDifese)
+%che contiene una lista con gli identificatori delle possibili strategie di difesa.
+%Si ha poi un predicato
+%attacco(Tipologia,ListaContromisure)
+%che, per ciascuna tipologia di attacco, lista le possibili difese. In particolare, la ListaContromisure ha la stessa lunghezza della ListaDifese. 
+%L'elemento di indice i della ListaContromisure ha valore
+%1, se la difesa di indice i nella ListaDifese è in grado di proteggere dall'attacco della data Tipologia
+%0, altrimenti.
+%Si scriva un programma CLP(FD) che trova il numero minimo di difese da implementare affinché i server siano protetti da tutte le tipologie di attacco.
+
 :-lib(fd).
 :-lib(fd_global).
 :-[attacchi].

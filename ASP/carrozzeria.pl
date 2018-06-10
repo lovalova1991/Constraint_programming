@@ -9,5 +9,3 @@ position(P):-car(P,_).
 switch(P):-pos(P,_,Col1),pos(P+1,_,Col2),Col1!=Col2.
 
 #minimize{1,P:switch(P)}.
-
-
