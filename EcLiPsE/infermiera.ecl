@@ -37,6 +37,6 @@ find_percorso([],_,[],0).
 find_percorso([A|At],[[Id,Tmin,Tmax]|Ttail],[Time|Times],Costo):-
     distanza(A,Id,C) infers fd,
     Costo1 is Costo+C,
-    (Time#>=Tmin) #\/ ( Time#=<Tmax),
+    (Time#>=Tmin) #\/ (Time#=<Tmax),
     find_percorso(At,Ttail,Times,Costo1).    
 

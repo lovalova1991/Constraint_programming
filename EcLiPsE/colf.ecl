@@ -50,10 +50,6 @@ colf(Lstart):-
     cumulative(Lstart,Ldur,Lpow,Pmax),
     cumulative([Sc,Se1,Sf],[Dc,De1,Df],[1,1,1],1),
     labeling(Lstart).
-    
-
-
-
 
 
 imposeorder(Start1,Durata1,Start2):-

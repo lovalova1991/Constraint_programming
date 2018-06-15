@@ -22,6 +22,7 @@
 
 :-lib(fd).
 :-lib(fd_global).
+:-lib(listut).
 :-[pack_inst].
 
 pacchetti(Linstalled,Lres):-
